@@ -1,4 +1,7 @@
-
+numpy
+pandas
+bs4
+re
 fastapi
 uvicorn
 gunicorn
