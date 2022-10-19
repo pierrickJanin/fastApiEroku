@@ -1,5 +1,6 @@
 numpy
 pandas
+bs4
 fastapi
 uvicorn
 gunicorn
