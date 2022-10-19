@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Oct 15 11:21:26 2022
 
-@author: pjani
-"""
 # Python libraries
 import numpy as np
 import pandas as pd
@@ -81,7 +76,7 @@ async def root():
 
    comment_words=''
    for tokens_list in test_df["mots"]:
-        comment_words += " ".join(tokens_list)+" " #join extrait les "mots" d'une liste
+        comment_words += "".join(tokens_list)+"" #join extrait les "mots" d'une liste
 
     
    return comment_words
